@@ -14,7 +14,9 @@ class FooterComponent extends Component {
                   <div className="row">
                     <div className="col-20">
                         <div className="zarrinpal">
+                        <a href="https://www.zarinpal.com/" >
                             <img src={zarrinpal} alt="زرین پال" />
+                        </a>
                         </div>
                     </div>
                     <div className="col-80">
