@@ -16,13 +16,21 @@ class HeaderComponent extends Component {
             <div className="container  p-10">
                 <div className="row nav-bar">
                     <div className="col-20 header-menu">
-                        <div   className="btn-header waves-effect ">ورود به سامانه</div>
+                        <a  href="#service"  className="btn-header waves-effect ">ورود به سامانه</a>
                     </div>
                     <div className="col-60 header-menu">
                         <ul className="">
-                            <li>درباره ما</li>
-                            <li>خدمات ما</li>
-                            <li>تماس باما</li>
+                            <li>
+                                <a href="#contact-us">تماس باما</a>
+                            </li>
+                 
+                            <li>
+                                <a href="#service">خدمات ما</a>
+                            </li>
+                            <li >
+                                <a href="#about-us">درباره ما</a>
+                            </li>
+                          
                         </ul>
                     </div>
                     <div className="col-20 header-menu">

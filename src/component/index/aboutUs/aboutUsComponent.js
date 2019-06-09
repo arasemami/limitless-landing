@@ -11,7 +11,7 @@ class AboutUsComponent extends Component {
     }
     render() { 
         return ( 
-            <div className="container-fluid p-b-200">
+            <div className="container-fluid p-b-200" id="about-us">
                 <div className="container txt-center">
                     <h1 className="p-50">درباره ما</h1>
                     <div className="row">

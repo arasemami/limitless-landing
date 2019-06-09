@@ -16,7 +16,7 @@ class ContactUsComponent extends Component {
     }
     render() { 
         return ( 
-            <div className="container-fluid">
+            <div className="container-fluid" id="contact-us">
                 <div className="container txt-center">
                     <h1>تماس باما</h1>
                     <div className="row">

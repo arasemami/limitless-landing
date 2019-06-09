@@ -109,6 +109,12 @@ body{
   font-size: 13px;
   /* overflow-x: hidden; */
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+
 *{
   font-family: IRANSansfa;
   border: none;
