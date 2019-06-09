@@ -4,7 +4,37 @@
     /* background:   linear-gradient(to right , #512DA8 ); */
     margin-top: 50px;
     color: #ffffff;
-    
+    text-align: right;
 
 
+
+
+}
+
+.zarrinpal {
+    text-align: left;
+   
+
+}
+
+
+.zarrinpal img{ 
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+}
+
+.social-container {
+    display: flex;
+    flex-direction: row;
+    background-color: red; 
+    justify-content: flex-end;
+    padding: 10px 0;
+}
+.social {
+    width: 35px;
+    height: 35px;
+    background-color: #ffffff;
+    margin:0 10px ;
+    border-radius: 50%;
 }
