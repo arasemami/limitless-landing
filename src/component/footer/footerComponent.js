@@ -9,9 +9,9 @@ class FooterComponent extends Component {
     }
     render() { 
         return ( 
-            <div className="container-fluid">
-                <div className="container p-50 txt-center">
-                    <p>limitless co - 2019</p>
+            <div className="container-fluid footer">
+                <div className="container p-20 txt-center">
+                    <p>شرکت تکنولوژی هوشمند و نامحدود زیگورات کیش - 1398</p>
                 </div>
             </div>
          );

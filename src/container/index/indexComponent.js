@@ -6,6 +6,7 @@ import AboutUsComponent from '../../component/index/aboutUs/aboutUsComponent';
 import PartnerComponent from '../../component/index/partner/partnerComponent';
 import ContactUsComponent from '../../component/index/contactUs/contactUsComponent';
 import LineColorComponent from '../../component/lineColor/lineColorComponent';
+import FooterComponent from '../../component/footer/footerComponent';
  
 
 
@@ -24,6 +25,7 @@ class IndexComponent extends Component {
                 {/* <PartnerComponent /> */}
                 <LineColorComponent />
                 <ContactUsComponent />
+                <FooterComponent />
 
             </div>
          );
