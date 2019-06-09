@@ -12,8 +12,10 @@ class ContactUsComponent extends Component {
     }
     render() { 
         return ( 
-            <div>
-                <p>contact us</p>
+            <div className="container-fluid">
+                <div className="container txt-center">
+                    <h1>تماس باما</h1>
+                </div>
             </div>
          );
     }
