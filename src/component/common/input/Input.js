@@ -25,7 +25,6 @@ const input = (props) => {
     
     return (
         <div className="Inputbox">
-            <p className="input-compinent-label">{props.label}</p>
             <div  className="input-label">
                
                 <input    type={props.type}

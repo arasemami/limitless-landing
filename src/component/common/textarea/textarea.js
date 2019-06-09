@@ -16,7 +16,7 @@ const TextArea = (props) => {
     
     return (
         <div className="Inputbox">
-            <p className="input-compinent-label">{props.label}</p>
+           
             <div  className="input-label">
                 <textarea    type={props.type}
                           onClick={props.clicked} 
