@@ -1,0 +1,38 @@
+
+ 
+
+.bg-overlay { 
+    opacity: 0.9;
+    background:   linear-gradient(to right , #512DA8, #711e72);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0; 
+    z-index: -1; 
+}
+
+.slogan {
+    width: 100%; 
+    text-align: center; 
+    padding-top: 150px;
+    color: #ffffff; 
+}
+
+.slogan h1 {
+    font-size: 90px;
+    font-weight: 500;
+    line-height: 1.2;
+
+}
+
+.slogan h2 {
+    font-size: 30px;
+    letter-spacing: 0.10rem;
+
+    
+}
+ 
+ 

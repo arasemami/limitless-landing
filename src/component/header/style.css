@@ -1,6 +1,10 @@
 
 .header-menu {
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 
 }
 .header-menu ul  {
@@ -8,9 +12,65 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    
+
+}
+.nav-bar {
+    padding: 5px 0;
 }
 
 .header-menu ul li  {
     padding:  0 20px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 15px;
+    background-color: transparent !important; 
+    margin: 0 10px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.header-menu ul li:hover{
+    color: #fff;
+}
+
+.header-logo {
+    width: 70px;
+
+}
+
+
+.btn-header {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+    border: 1px solid transparent;
+    padding: 10px 35px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: all 0.4s;
+    background-color: #ffffff;
+    border-radius: 30px; 
+
+}
+.btn-header:hover{
+    transform: translateY(-5px);
+}
+ 
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
 }

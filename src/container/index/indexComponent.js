@@ -11,9 +11,23 @@ class IndexComponent extends Component {
     }
     render() { 
         return ( 
-            <div className="container-fluid">
-                <HeaderComponent />
-                <p>index component</p>
+            <div>
+                <div className="container-fluid   ">
+                   
+                    <div className=" bg-overlay "></div>
+                    <HeaderComponent />
+                    <div className="container">
+                        <div className="slogan">
+                            <h1> 
+                                <span>لیمیتلس</span>
+                            </h1>
+                            <h2>تجمیع کننده خدمات گردشگری ، اقامتی و توریستی در جزیره زیبای کیش</h2>
+                   
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
          );
     }
