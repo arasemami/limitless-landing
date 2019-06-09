@@ -1,0 +1,18 @@
+
+.our-service-desc {
+    padding: 10px 40px;
+    text-align: justify;
+
+}
+
+.btn-service {
+    margin-top: 20px;
+    background-color: #512DA8!important;
+    /* background: linear-gradient(to right , #512DA8, #711e72); */
+    color: #ffffff;
+    cursor: pointer;
+
+}
+.btn-service:hover{
+    opacity: 0.8;
+}

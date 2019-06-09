@@ -12,7 +12,7 @@ class IndexComponent extends Component {
     }
     render() { 
         return ( 
-            <div className="index-all">
+            <div className="container-fluid">
              
                 <WelcomeComponent />
                 <OurServiceComponent />

@@ -13,7 +13,7 @@ class WelcomeComponent extends Component {
             <div className="container-fluid   ">
                 <div className=" bg-overlay "></div>
                 <HeaderComponent />
-                <div className="container">
+                <div className="container" style={{height:'800px'}}>
                     <div className="slogan">
                         <h1> 
                             <span>لیمیتلس</span>
