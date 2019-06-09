@@ -5,6 +5,7 @@ import OurServiceComponent from '../../component/index/ourService/ourServiceComp
 import AboutUsComponent from '../../component/index/aboutUs/aboutUsComponent';
 import PartnerComponent from '../../component/index/partner/partnerComponent';
 import ContactUsComponent from '../../component/index/contactUs/contactUsComponent';
+import LineColorComponent from '../../component/lineColor/lineColorComponent';
  
 
 
@@ -15,12 +16,13 @@ class IndexComponent extends Component {
     }
     render() { 
         return ( 
-            <div className="container-fluid">
+            <div className="">
              
                 <WelcomeComponent />
                 <OurServiceComponent />
                 <AboutUsComponent />
                 {/* <PartnerComponent /> */}
+                <LineColorComponent />
                 <ContactUsComponent />
 
             </div>

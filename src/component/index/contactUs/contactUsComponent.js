@@ -17,7 +17,7 @@ class ContactUsComponent extends Component {
     render() { 
         return ( 
             <div className="container-fluid" id="contact-us">
-                <div className="container txt-center">
+                <div className="container txt-center contact-us-container">
                     <h1>تماس باما</h1>
                     <div className="row">
                         <div className="col-70">
@@ -84,11 +84,12 @@ class ContactUsComponent extends Component {
                             <ul className="contact-us-info">
                                 <li>
                                     <h3>نشانی</h3>
-                                    <p>جزیره زیبای کیش ، رویا مال ، واحد ۲۲۲</p>
+                                    <p>جزیره زیبای کیش ، ساختمان تجاری اداری رویا مال ، طبقه دوم ، واحد ۲۲۲</p>
+                                    <p>شرکت تکنولوژی هوشمند و نامحدود زیگورات کیش</p>
                                 </li> 
                                 <li>
                                     <h3>تلفن تماس</h3>
-                                    <p>02-8585854</p>
+                                    <p>۰۰۹۸۹۰۵۶۵۵۱۶۰۱ - ۰۰۹۸۹۰۵۶۵۵۱۶۰۲</p>
                                 </li>
                                 <li>
                                     <h3>ساعت کاری</h3>

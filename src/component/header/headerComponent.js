@@ -23,14 +23,12 @@ class HeaderComponent extends Component {
                             <li>
                                 <a href="#contact-us">تماس باما</a>
                             </li>
-                 
                             <li>
                                 <a href="#service">خدمات ما</a>
                             </li>
                             <li >
                                 <a href="#about-us">درباره ما</a>
                             </li>
-                          
                         </ul>
                     </div>
                     <div className="col-20 header-menu">
