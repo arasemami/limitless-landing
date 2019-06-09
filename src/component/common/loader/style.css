@@ -1,0 +1,210 @@
+
+
+.loader-container { 
+    z-index: 999999999;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+     width: 100%;
+
+
+
+
+}
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 1s linear infinite;
+    margin: auto;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+  .loading-button {
+    border: 3px solid #f3f3f3; /* Light grey */
+    border-top: 3px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1s linear infinite;
+    margin: auto; 
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+@media screen and (max-width: 1300px){
+    .filter{
+        flex-direction: column;
+    }
+    .date , .search-sellers{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .search-sellers{
+        justify-content:space-between;
+    }
+    .from, .to{
+        width: 350px;
+    }
+    .to{
+        border: none;
+    }
+    .sellers , .sell-report{
+        width: 350px;
+        padding: 0px 0px 0px 50px;
+    }
+    .sellers{
+        border-left: 1px solid #eaeaea;
+    }
+
+}
+@media screen and (max-width: 1100px){
+
+    .sellers , .sell-report , .from, .to{
+        width: 300px;
+    }
+    .filter .datePicker{
+        width: 100%;
+    }
+    .filter .datePicker  .jdtrp {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .home-box{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .part1{
+        width: 100%;
+        padding: 10px;
+        margin: 0px;
+    }
+    .part2{
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+    }
+    .filter .datePicker .jdtrp > div .JDatePicker{
+        padding: 10px;
+    }
+
+    .filter .datePicker .jdtrp > div:nth-child(3) .JDatePicker{
+        right: -30px;
+    }
+
+}
+
+@media screen and (max-width: 560px){
+    
+    .profile {
+        border-top: 1px solid #f3f3f3;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+    .my-arrow-down{
+        left: 10px;
+    }
+        .date{
+            flex-direction: column;
+        }
+        .from , .sellers{
+            border: none;
+        }
+        .search-sellers{
+            flex-wrap: wrap;
+        }
+        .sellers{
+            margin-bottom: 20px;
+        }
+        .all-income{
+            flex-direction: column;
+        }
+        .all-income-sale {
+            width: 100%;
+            justify-content: space-between;
+        }
+        .income-text , .sale-text{
+            width: 45%;
+            font-weight: 900;
+            margin-bottom: 20px;
+        }
+        .sale-text {
+            display: flex;
+            justify-content: flex-end;
+        }
+        .pdf-grid {
+            width: 100%;
+            justify-content: space-between;
+        }
+        .pdf-grid >div{
+            display: flex;
+            justify-content:space-around;
+            width: 100px;
+        }
+        .filter .datePicker .jdtrp{
+            width: 200px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .filter .datePicker .jdtrp > div:nth-child(1), .filter .datePicker .jdtrp > div:nth-child(3){
+            padding: 20px 0px;
+        }
+        .filter .datePicker .jdtrp{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .filter .datePicker .jdtrp > div .JDatePicker ,.filter .datePicker .jdtrp > div:nth-child(3) .JDatePicker{
+            right: 145px;
+            width: 100%;
+        }
+        .filter .days-titles div{
+            padding: 0px;
+        }
+}
+@media screen and (max-width: 450px){
+    .all-income-sale{
+        flex-wrap: wrap;
+    }
+    .income-text, .sale-text{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .part1 , .part2{
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 400px){
+
+    .sellers , .sell-report , .search{
+        width: 90%;
+        margin:20px auto;
+        padding:0px;
+    }
+    .search-btn {
+        width: 90%;
+        background-color: #48a4ff;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        margin: auto;
+    }
+}

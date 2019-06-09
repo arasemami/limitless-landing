@@ -1,0 +1,16 @@
+
+.header-menu {
+    text-align: center;
+
+}
+.header-menu ul  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.header-menu ul li  {
+    padding:  0 20px;
+}
