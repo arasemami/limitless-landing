@@ -19,7 +19,9 @@ class OurServiceComponent extends Component {
                             این پنل مخصوص توسعه دهندگان محترم میباشد که میتوانند بدون هیچ محدودیتی از کلیه خدمات پنل بصورت وایت لیبل ، وایت برند و تحت برند خود یا مشتری شان استفاده نمایند. همچنین میتوانند جهت ساخت وب سایتهای مشتریان ما با وب سرویس های موجود نیز از خدمات استفاده نمایند
                             </p>
                             <div className="btn-header btn-service">
-                                <p>ورود به وب سرویس</p>
+                                <p>ورود به وب سرویس
+                                <span className="free"> (رایگان) </span>
+                                </p>
                             </div>
                         </div>
                         <div className="col-33">
@@ -28,8 +30,12 @@ class OurServiceComponent extends Component {
                             آژانس ها میتوانند با دریافت پنل آژانس به دهها عرضه کننده مستقر در جزیره متصل شوند و همچنین شبکه ی فروش خود را ایجاد کنند
                             </p>
                             <div className="btn-header btn-service">
-                                <p>ورود به پنل آژانس</p>
+                                <p>
+                                    ورود به پنل آژانس
+                                    <span className="free"> (رایگان) </span>
+                                    </p>
                             </div>
+                          
                         </div>
                         <div className="col-33">
                             <h2>ساین عرضه کننده</h2>
@@ -37,7 +43,9 @@ class OurServiceComponent extends Component {
                             مجموعه داران محترم در جزیره کیش میتوانند با دریافت پنل عرضه کننده از خدمات بینهایتی آن استفاده نمایند و فروش خود را بیش از پیش رشد دهند
                             </p>
                             <div className="btn-header btn-service">
-                                <p>ورود به عرضه کننده</p>
+                                <p>ورود به عرضه کننده
+                                <span className="free"> (رایگان) </span>
+                                </p>
                             </div>
                         </div>
                     </div>
