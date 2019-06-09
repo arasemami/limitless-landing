@@ -16,7 +16,7 @@ class HeaderComponent extends Component {
             <div className="container  p-10">
                 <div className="row nav-bar">
                     <div className="col-20 header-menu">
-                        <a  href="#service"  className="btn-header waves-effect ">ورود به سامانه</a>
+                        <a  href="http://register.limitlessco.ir/"  className="btn-header waves-effect "> عضویت در سامانه</a>
                     </div>
                     <div className="col-60 header-menu">
                         <ul className="">
