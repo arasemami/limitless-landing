@@ -18,23 +18,23 @@ class OurServiceComponent extends Component {
                             <p className="our-service-desc">
                             این پنل مخصوص توسعه دهندگان محترم میباشد که میتوانند بدون هیچ محدودیتی از کلیه خدمات پنل بصورت وایت لیبل ، وایت برند و تحت برند خود یا مشتری شان استفاده نمایند. همچنین میتوانند جهت ساخت وب سایتهای مشتریان ما با وب سرویس های موجود نیز از خدمات استفاده نمایند
                             </p>
-                            <div className="btn-header btn-service">
+                            <a href="http://doc.limitlessco.ir" className="btn-header btn-service">
                                 <p>ورود به وب سرویس
                                 <span className="free"> (رایگان) </span>
                                 </p>
-                            </div>
+                            </a>
                         </div>
                         <div className="col-33">
                             <h2>ساین آژانس</h2>
                             <p className="our-service-desc">
                             آژانس ها میتوانند با دریافت پنل آژانس به دهها عرضه کننده مستقر در جزیره متصل شوند و همچنین شبکه ی فروش خود را ایجاد کنند
                             </p>
-                            <div className="btn-header btn-service">
+                            <a href="http://agency.limitlessco.ir" className="btn-header btn-service">
                                 <p>
                                     ورود به پنل آژانس
                                     <span className="free"> (رایگان) </span>
                                     </p>
-                            </div>
+                            </a>
                           
                         </div>
                         <div className="col-33">
@@ -42,11 +42,11 @@ class OurServiceComponent extends Component {
                             <p className="our-service-desc">
                             مجموعه داران محترم در جزیره کیش میتوانند با دریافت پنل عرضه کننده از خدمات بینهایتی آن استفاده نمایند و فروش خود را بیش از پیش رشد دهند
                             </p>
-                            <div className="btn-header btn-service">
+                            <a href="http://supplier.limitlessco.ir" className="btn-header btn-service">
                                 <p>ورود به عرضه کننده
                                 <span className="free"> (رایگان) </span>
                                 </p>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
