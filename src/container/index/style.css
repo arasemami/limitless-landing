@@ -30,9 +30,20 @@
 
 .slogan h2 {
     font-size: 30px;
-    letter-spacing: 0.10rem;
+    letter-spacing: 0.10rem; 
+}
+
+.pattern {
+    background-image: url('../../assets/images/bg-pattern.png'); 
+    height: 30px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    z-index: 333;
+    width: 100%;
 
     
+
 }
  
  

@@ -14,7 +14,9 @@ class IndexComponent extends Component {
             <div>
                 <div className="container-fluid   ">
                    
-                    <div className=" bg-overlay "></div>
+                    <div className=" bg-overlay ">
+                   
+                    </div>
                     <HeaderComponent />
                     <div className="container">
                         <div className="slogan">
@@ -25,8 +27,9 @@ class IndexComponent extends Component {
                    
                         </div>
                     </div>
+                    <div className="pattern"></div>
                 </div>
-
+                
 
             </div>
          );
