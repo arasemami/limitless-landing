@@ -9,7 +9,7 @@ class OurServiceComponent extends Component {
     }
     render() { 
         return ( 
-            <div className="container-fluid" >
+            <div className="container-fluid p-b-200" >
                 <div className="container txt-center p-50" >
                     <h1 className="p-50">خدمات ما</h1>
                     <div className="row">
