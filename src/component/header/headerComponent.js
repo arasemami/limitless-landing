@@ -21,9 +21,8 @@ class HeaderComponent extends Component {
                     <div className="col-60 header-menu">
                         <ul className="">
                             <li>درباره ما</li>
-                            <li>درباره ما</li>
-                            <li>درباره ما</li>
-                            <li>درباره ما</li>
+                            <li>خدمات ما</li>
+                            <li>تماس باما</li>
                         </ul>
                     </div>
                     <div className="col-20 header-menu">

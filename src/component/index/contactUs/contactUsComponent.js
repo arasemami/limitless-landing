@@ -26,7 +26,7 @@ class ContactUsComponent extends Component {
                                 <Input 
                                     type={'text'} 
                                     name={'email'}
-                                    placeholder={'Email'}
+                                    placeholder={'پست الکترونیک'}
                                     changed={this.changedHandler}
                                     error={this.state.forgetEmailError} // if you want show error pass error text to this props
                                     label=""  // title of text 
@@ -38,7 +38,7 @@ class ContactUsComponent extends Component {
                                 <Input 
                                     type={'text'} 
                                     name={'email'}
-                                    placeholder={'Email'}
+                                    placeholder={'نام و نام خانوادگی'}
                                     changed={this.changedHandler}
                                     error={this.state.forgetEmailError} // if you want show error pass error text to this props
                                     label=""  // title of text 
@@ -50,7 +50,7 @@ class ContactUsComponent extends Component {
                                 <Input 
                                     type={'text'} 
                                     name={'email'}
-                                    placeholder={'Email'}
+                                    placeholder={'عنوان'}
                                     changed={this.changedHandler}
                                     error={this.state.forgetEmailError} // if you want show error pass error text to this props
                                     label=""  // title of text 
@@ -61,7 +61,7 @@ class ContactUsComponent extends Component {
                                 <TextArea 
                                         type={'text'} 
                                         name={'email'}
-                                        placeholder={'Email'}
+                                        placeholder={'متن پیام'}
                                         changed={this.changedHandler}
                                         error={this.state.forgetEmailError}
                                     />
