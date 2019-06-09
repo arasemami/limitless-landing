@@ -1,0 +1,19 @@
+
+.about-us-image {
+    width: 100%; 
+    height: 600px;
+    background-image: url('../../../assets/images/office.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.about-us-text{
+    text-align: justify;
+    padding: 10px 20px;
+    line-height: 25px;
+    
+
+
+}
