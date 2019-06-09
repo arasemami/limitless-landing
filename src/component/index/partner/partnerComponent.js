@@ -10,8 +10,9 @@ class PartnerComponent extends Component {
     render() { 
         return ( 
             <div className="container-fluid">
-                <div className="container">
+                <div className="container txt-center">
                     <h1 className="p-50">همکاران تجاری ما</h1>
+                    
                 </div>
             </div>
          );
