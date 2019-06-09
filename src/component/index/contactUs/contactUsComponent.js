@@ -69,7 +69,7 @@ class ContactUsComponent extends Component {
                               <div className="col-30">
                                 <Button                                                                  
                                     isLoading={this.state.isLoading}                                    
-                                    title={'Send'}                                                      
+                                    title={'ارسال'}                                                      
                                     bgcolor={'#0088F9'}                                                 
                                     hoverbgcolor={'#0088F9'}                                          
                                     click={this.callSubmit}
