@@ -26,15 +26,44 @@
 
 .social-container {
     display: flex;
-    flex-direction: row;
-    background-color: red; 
+    flex-direction: row; 
     justify-content: flex-end;
     padding: 10px 0;
 }
 .social {
     width: 35px;
     height: 35px;
-    background-color: #ffffff;
+    background-color: transparent;
     margin:0 10px ;
     border-radius: 50%;
+    border: 2px solid #fcfcfc;
+
+    background-position: center center;
+    background-size: 50%;
+    background-repeat: no-repeat; 
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.social:hover{
+    transform: translateY(-5px);
+}
+
+.facbook {
+    background-image: url('../../assets/icons/social/facebook-logo.svg');
+}
+
+.instagram {
+    background-image: url('../../assets/icons/social/instagram.svg');
+}
+
+
+.twitter {
+    background-image: url('../../assets/icons/social/tw.svg');
+}
+.linkedin {
+    background-image: url('../../assets/icons/social/linkedin.svg');
+   
+
+
 }

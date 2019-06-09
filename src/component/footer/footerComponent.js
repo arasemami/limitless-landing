@@ -20,9 +20,10 @@ class FooterComponent extends Component {
                     <div className="col-80">
                         <p> شرکت تکنولوژی هوشمند و نامحدود زیگورات کیش - 1398 </p>
                         <div className="social-container">
-                            <div className="social"></div>
-                            <div className="social"></div>
-                            <div className="social"></div>
+                            <div className="social facbook"></div>
+                            <div className="social instagram"></div>
+                            <div className="social twitter"></div>
+                            <div className="social linkedin"></div>
                         </div>
                     </div>
                   </div>
