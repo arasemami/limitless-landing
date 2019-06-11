@@ -14,8 +14,7 @@ class ComingSoonComponent extends Component {
     }
     render() { 
         return ( 
-            <div className="coming-soon">
-               <p>coming soon ....</p> 
+            <div className="coming-soon"> 
             </div>
          );
     }
